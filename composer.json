@@ -1,0 +1,19 @@
+{
+    "name": "shanto/htdocs",
+    "description": "Web app based on car wash services",
+    "autoload": {
+        "psr-4": {
+            "Shanto\\Htdocs\\": "src/"
+        }
+    },
+    "authors": [
+        {
+            "name": "Shanto Islam",
+            "email": "ishanto412@gmail.com"
+        }
+    ],
+    "require": {
+        "vlucas/phpdotenv": "^5.5",
+        "phpmailer/phpmailer": "^6.7"
+    }
+}
